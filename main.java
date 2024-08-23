@@ -18,16 +18,16 @@ public class Main {
         int[][] matrizResultado = new int[3][3];
 
        //i para linhas ,j para colunas
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
                 matrizResultado[i][j] = matrizA[i][j] + matrizB[i][j];
             }
         }
 
         // Exibir o resultado
         System.out.println("Resultado:");
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
                 System.out.print(matrizResultado[i][j] + " ");
             }
             System.out.println();
